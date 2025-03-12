@@ -14,6 +14,10 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ product, onClose }) => {
+  // Codifica el nombre del producto para usarlo en la URL
+  const encodedProductName = encodeURIComponent(product.name);
+  const whatsappLink = `https://wa.me/+584246960639?text=¡Hola!%20Estoy%20interesado%20en%20el%20producto%20"%20${encodedProductName}%20"`;
+
   return (
     <motion.div
       className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
@@ -41,6 +45,16 @@ const Modal: React.FC<ModalProps> = ({ product, onClose }) => {
           <p className="mt-2 text-lg font-semibold text-gray-700">
             Precio: ${product.price}
           </p>
+          
+          {/* Botón de WhatsApp */}
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 bg-green-500 text-white py-2 px-6 rounded-md text-lg hover:bg-green-600"
+          >
+            Enviar mensaje a WhatsApp
+          </a>
         </div>
       </motion.div>
     </motion.div>
