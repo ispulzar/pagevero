@@ -1,5 +1,5 @@
 export const Products = [
-  { id: 1, name: "CAMISETA BLANCA HOMBRE NEY YORK", image: "./camisa_hombre_1.jpg",more_images:["./camisa_hombre_2.jpg","./camisa_mujer_1.jpg"], price: 17.50 },
+  { id: 1, name: "CAMISETA BLANCA HOMBRE NEY YORK", image: "./camisa_hombre_1.jpg",more_images:["./camisa_hombre_2.jpg"], price: 17.50 },
   { id: 12, name: "CAMISETA BLANCA HOMBRE LA", image: "./camisa_hombre_2.jpg",more_images:[], price: 17.50 },
   { id: 2, name: "TOP COLORES PARA MUJER", image: "./camisa_mujer_1.jpg",more_images:[], price: 12.00 },
   { id: 3, name: "FALDA SHORT BLANCA", image: "./falda_mujer_1.jpg",more_images:[], price: 12.00 },
