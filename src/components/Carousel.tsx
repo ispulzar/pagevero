@@ -45,13 +45,13 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
         {images.length > 1 && (
           <>
             <button
-              className="absolute top-1/2 left-2 p-3 bg-gray-900 text-white rounded-full shadow-md hover:bg-gray-700 transition"
+              className="absolute top-1/2 left-2 p-3 bg-white-900 text-white rounded-full shadow-md hover:bg-white-700 transition"
               onClick={prevSlide}
             >
               <ChevronLeft size={24} />
             </button>
             <button
-              className="absolute top-1/2 right-2 p-3 bg-gray-900 text-white rounded-full shadow-md hover:bg-gray-700 transition"
+              className="absolute top-1/2 right-2 p-3 bg-white-900 text-white rounded-full shadow-md hover:bg-white-700 transition"
               onClick={nextSlide}
             >
               <ChevronRight size={24} />
