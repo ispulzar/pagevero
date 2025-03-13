@@ -22,7 +22,7 @@ export const Products = [
   },
   {
     id: 2,
-    name: "CAMISETA COLORIDA PARA MUJER",
+    name: "CAMISETA DE RAYAS",
     description:
       "Camiseta colorida con diseño vibrante, perfecto para el verano.",
     size: ["S"],
@@ -44,7 +44,7 @@ export const Products = [
   },
   {
     id: 4,
-    name: "TOP BLANCO DE SEDA",
+    name: "TOP BLANCO ASIMETRICO",
     description: "Top blanco de seda con un diseño elegante y ligero.",
     size: ["S", "M", "L"],
     image: "./top_mujer_1.jpg",
@@ -54,7 +54,7 @@ export const Products = [
   },
   {
     id: 5,
-    name: "TOP BLANCO CON AGUJETAS",
+    name: "TOP BLANCO CON NUDO FRONTAL",
     description: "Top blanco con detalles de agujetas en la parte delantera.",
     size: ["S"],
     image: "./top_mujer_2.jpg",
